@@ -1,0 +1,21 @@
+#navigation {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	h1 {
+		font-size: 26px;
+	}
+	.navbar-nav > li > a {
+		color: $primary-color;
+		text-transform: uppercase;
+	}
+}
+#navigation .navbar-nav > li > a:hover {
+	background-color: white;
+	border-bottom: 2px solid $primary-color;
+}
+
+@media (max-width: 768px) {
+	.col-sm-3 {
+		text-align: center;
+	}
+}

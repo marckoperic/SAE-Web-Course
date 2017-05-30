@@ -1,0 +1,12 @@
+#login {
+	background-color: $primary-color;
+	.navbar-nav > li > a {
+		color: white;
+		font-size: 12px;
+		padding: 5px 15px 5px 15px;
+	}
+}
+
+#login .navbar-nav > li > a:hover {
+	background-color: darken($primary-color,5%);
+}

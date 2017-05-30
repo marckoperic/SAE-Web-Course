@@ -1,0 +1,43 @@
+#services-section {
+	padding-bottom: 40px;
+	.col-md-3 {
+		h4 {
+		margin-top: 20px;
+		font-size: 18px;
+		color: $primary-color;
+		}
+		.glyphicon {
+			font-size: 64px;
+			color: $primary-color;
+		}
+	}
+	.col-md-12 {
+		h4 {
+			color: black;
+			margin-top: 40px;
+		}
+	}
+	#facilis-row {
+		h4 {
+			color: #7f7d77;
+			margin-top: 45px;
+			margin-bottom: 20px;
+		}
+		p {
+			margin-top: 20px;
+		}
+		a {
+			color: $primary-color;
+			&:hover {
+				color: darken($primary-color,30%);
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	#facilis-row {
+		text-align: center;
+	}
+}
